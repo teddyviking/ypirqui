@@ -4,11 +4,18 @@
   "description": "Ypirqui slack bot",
   "main": "lib/ypirqui.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/ypirqui.js"
   },
-  "author": "Juan Alonso (@kokuma)",
-  "license": "MIT",
   "dependencies": {
     "slackbots": "^0.5.1"
-  }
+  },
+  "engines": {
+    "node": "5.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanalonso/ypirqui"
+  },
+  "author": "Juan Alonso (@kokuma)",
+  "license": "MIT"
 }
