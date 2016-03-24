@@ -9,15 +9,18 @@ Ypirquí (full name: Jennifer Ypirquí) is a [Node.js](https://nodejs.org) based
 3. Open the folder and run `npm install` in it, to install all the dependencies.
 4. Edit `config.js` and add your API Token (step one) to the line `config.slack_token = "";`
 5. Run `node lib/ypirqui.js`
-6. Enjoy
+6. Make sure you are on the corresponding Slack channel or invite her to it.
+7. Enjoy
 
 ### What does Jennifer Ypirquí do?
 Jennifer is like a five year old child, ridiculing you, repeating what you write, subtituting all the vowels with an i, a common form of mockery among kids in the Spanish language. You can also mention her (She will get back at the channel) or mention her and other users, and she will come back at _them_. Also, Jennifer interacts with emojis in her own peculiar way.
 
 ### Additional configuration
-You can edit `config.js` to tune a bit Ypirquí's behaviour
+You can edit `config.js` to tune a bit Ypirquí's behaviour:
 - `config.bot_random`: controls the probability of Ypirquí's responses. Should be a number between 0 (always responds - not recommended) and 1 (never responds). A value around 0.75-0.85 is a good strating point.
 - `config.bot_min_string_length`: If an user writes a string shorter than this value, Ypirquí will ignore it.
 
+### Heroku
+You can deploy Ypirquí on Heroku. Instructions will follow.
 
 
