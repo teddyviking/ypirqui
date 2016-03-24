@@ -15,6 +15,8 @@ Ypirquí (full name: Jennifer Ypirquí) is a [Node.js](https://nodejs.org) based
 ### What does Jennifer Ypirquí do?
 Jennifer is like a five year old child, ridiculing you, repeating what you write, subtituting all the vowels with an i, a common form of mockery among kids in the Spanish language. You can also mention her (She will get back at the channel) or mention her and other users, and she will come back at _them_. Also, Jennifer interacts with emojis in her own peculiar way.
 
+![Jennifer Ypirquí in action](https://cloud.githubusercontent.com/assets/1846199/14018894/5a9c49de-f1d0-11e5-9227-4b98a4ae0318.png)
+
 ### Additional configuration
 You can edit `config.js` to tune a bit Ypirquí's behaviour:
 - `config.bot_random`: controls the probability of Ypirquí's responses. Should be a number between 0 (always responds - not recommended) and 1 (never responds). A value around 0.75-0.85 is a good strating point.
